@@ -1,0 +1,63 @@
+h1 {
+    font-size: 1.3rem;
+}
+
+#root {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: rgb(245, 244, 244);
+}
+.card {
+    margin: 0.5rem;
+    background: #eee;
+    .data-container {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+}
+.detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    div {
+        margin: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        padding: 5%;
+        background: #eee;
+
+        button {
+            height: 50px;
+            border-radius: 5px;
+        }
+    }
+}
+#pagination {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    #numbers {
+        display: flex;
+        flex-flow: row wrap;
+        width: 90%;
+        justify-content: space-around;
+    }
+}
+.number {
+    padding: 1%;
+
+    display: flex;
+    justify-content: center;
+}
+.current {
+    background: rgb(59, 57, 57);
+    color: rgb(255, 255, 255);
+}
+button {
+    background: rgb(59, 57, 57);
+    color: rgb(255, 255, 255);
+}
